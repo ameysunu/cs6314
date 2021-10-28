@@ -76,11 +76,21 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //get exchange from fromSpinnerIndex, toSpinnerIndex
                 double rate = rates[toSpinnerIndex] / rates[fromSpinnerIndex];
+                //toEditText.setText(String.valueOf(rate));
+                System.out.println(rate);
 
                 //get amount to convert from
-
+                Double finalRate = Double.parseDouble(fromEditText.getText().toString());
+                System.out.println(finalRate);
                 //calculate the amount to
+                double newRate = rate * finalRate;
+                toEditText.setText(String.valueOf(newRate));
             }
         });
+    }
+
+    public void onClear(View view) {
+        fromEditText.setText("");
+        toEditText.setText("");
     }
 }

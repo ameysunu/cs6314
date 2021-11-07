@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <persons>
+        <element>
+            <image>peter</image>
+            <name>Peter Griffin</name>
+            <location>Quahog</location>
+            <url>https://amey.me</url>
+        </element>
+        <element>
+            <image>lois</image>
+            <name>Lois Griffin</name>
+            <location>Quahog</location>
+            <url>https://www.google.com</url>
+        </element>
+        <element>
+            <image>stewie</image>
+            <name>Stewie Griffin</name>
+            <location>Quahog</location>
+            <url>https://www.google.com</url>
+        </element>
+        <element>
+            <image>brian</image>
+            <name>Brian Griffin</name>
+            <location>Quahog</location>
+            <url>https://www.google.com</url>
+        </element>
+        <element>
+            <image>glenn</image>
+            <name>Glenn Quagmire</name>
+            <location>Quahog</location>
+            <url>https://www.google.com</url>
+        </element>
+        <element>
+            <image>joe</image>
+            <name>Joe Swanson</name>
+            <location>Quahog</location>
+            <url>https://www.google.com</url>
+        </element>
+    </persons>
+</root>

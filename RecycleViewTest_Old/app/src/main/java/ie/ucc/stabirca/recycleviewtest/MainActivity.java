@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView = null;
     private DataAdapter adapter = null;
     private String names [] = null;
+    private String images [] = null;
     private PeopleXMLData data = null;
 
     @Override
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         //make data
         data = new PeopleXMLData(this);
         names = data.getNames();
+
 
         // Adaptor
         adapter = new DataAdapter(names, R.layout.row_layout, this);

@@ -2,17 +2,24 @@
 <dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="people.xsd" generated="2011-11-05T23:09:59">
 
     <person>
-        <name>Sabin Tabirca</name>
-        <address>WGB 1.81, UCC, Cokr</address>
-        <phone>111111111</phone>
-        <image>sabin.jpg</image>
+        <name>Peter Griffin</name>
+        <address>Quahog</address>
+        <phone>9129238238</phone>
+        <image>peter.jpg</image>
         <url>http://www.cs.ucc.ie/~stabirca</url>
     </person>
     <person>
-        <name>Sabin Tabirca</name>
-        <address>WGB 1.81, UCC, Cokr</address>
-        <phone>111111111</phone>
-        <image>sabin.jpg</image>
+        <name>Lois Griffin</name>
+        <address>Quahog</address>
+        <phone>272362812</phone>
+        <image>lois.jpg</image>
+        <url>http://www.cs.ucc.ie/~stabirca</url>
+    </person>
+    <person>
+        <name>Brian Griffin</name>
+        <address>Quahog</address>
+        <phone>575232443</phone>
+        <image>brian.jpg</image>
         <url>http://www.cs.ucc.ie/~stabirca</url>
     </person>
 

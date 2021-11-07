@@ -1,7 +1,9 @@
 package ie.ucc.stabirca.recycleviewtest;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +19,7 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
     private String [] names;
     private int rowId;
     private Context context;
+    private Person data;
 
     public DataAdapter(String[] names, int rowId, Context context) {
         this.names = names;
@@ -40,7 +43,11 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(context, ((TextView)view).getText(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(context, ((TextView)view).getText(), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(context.getApplicationContext(), InfoView.class);
+                Bundle bundle = new Bundle();
+
+                bundle.putSerializable("person", data);
 
 
             }

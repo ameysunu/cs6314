@@ -32,8 +32,7 @@ public class PersonActivity extends AppCompatActivity {
         moreInfoButton = findViewById(R.id.button);
 
         //create data
-        data = new Person("Peter Griffin", "Quahog", "6969420","https://petergriffin.com", "peter.png");
-
+        data = new Person("Peter Griffin", "Quahog", "6969420","https://petergriffin.com", "peter.png")
         //populate widgets with data
         nameTextView.setText(data.getName());
         String imageName = data.getImage();
